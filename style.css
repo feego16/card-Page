@@ -1,0 +1,93 @@
+body{
+    overflow:hidden;
+}
+.card-holder{
+    background-color: rgb(112, 250, 220);
+    display:flex;
+    /* background: url(images/bg-pattern-bottom.svg); */
+    height: 700px;
+    margin:200px 200px;
+    max-width:100%;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+   
+    
+
+   
+   
+    
+    
+}
+#pattern{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card{
+    background-color:rgba(253, 253, 253, 0.959);
+    height: 350px;
+    align-self: center;
+    flex-basis: 200px;
+    border-radius:10px;
+    z-index: 99;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.411);
+    border: 1px solid rgba(255, 255, 255, 0.829);
+    
+    
+}
+.profile{
+    border-radius: 50%;
+    border: 5px solid#fff;
+    position:relative;
+    top:-60px;
+    right:-35%;
+    text-align: center;
+}
+.title{
+    font-family:'Kumbh Sans', sans-serif;
+    color: hsl(227, 10%, 46%);
+    font-size:18px;
+    font-weight:bolder;
+    position: relative;
+    top:-58px;
+    left:120px;
+}
+.title p{
+   color: hsl(0, 0%, 59%);
+   display: inline;
+   font-weight: normal;
+}
+
+p.london{
+    display: block;
+    font-size: 12px;
+    position: relative;
+    top:-9px;
+   left: 45px;
+
+}
+.top{
+position: absolute;
+top:-400px;
+left: 90px;
+}
+.bottom{
+    position: absolute;
+    bottom:-400px;
+    right:-100px;
+    z-index:-3;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer div{
+    margin-top: -23px;
+}
+.footer  div p{
+    font-size: 12px;
+    font-weight: lighter;
+    color: hsl(227, 10%, 46%);
+    
+}
